@@ -2,42 +2,6 @@
 // --------------------------
 
 
-.#{$ra-css-prefix}-perspective-dice-two {
-  &:before {
-    content: $ra-var-icon-perspective-dice-two; 
-  }
-}
-
-.#{$ra-css-prefix}-sword {
-  &:before {
-    content: $ra-var-icon-sword; 
-  }
-}
-
-.#{$ra-css-prefix}-castle {
-  &:before {
-    content: $ra-var-icon-castle; 
-  }
-}
-
-.#{$ra-css-prefix}-pumpkin-lantern {
-  &:before {
-    content: $ra-var-icon-pumpkin-lantern; 
-  }
-}
-
-.#{$ra-css-prefix}-wood-beam {
-  &:before {
-    content: $ra-var-icon-wood-beam; 
-  }
-}
-
-.#{$ra-css-prefix}-brutal-helm {
-  &:before {
-    content: $ra-var-icon-brutal-helm; 
-  }
-}
-
 .#{$ra-css-prefix}-achievement {
   &:before {
     content: $ra-var-icon-achievement; 
@@ -548,6 +512,12 @@
   }
 }
 
+.#{$ra-css-prefix}-brutal-helm {
+  &:before {
+    content: $ra-var-icon-brutal-helm; 
+  }
+}
+
 .#{$ra-css-prefix}-bubbling-potion {
   &:before {
     content: $ra-var-icon-bubbling-potion; 
@@ -671,6 +641,12 @@
 .#{$ra-css-prefix}-castle-flag {
   &:before {
     content: $ra-var-icon-castle-flag; 
+  }
+}
+
+.#{$ra-css-prefix}-castle {
+  &:before {
+    content: $ra-var-icon-castle; 
   }
 }
 
@@ -2174,15 +2150,15 @@
   }
 }
 
-.#{$ra-css-prefix}-montains {
-  &:before {
-    content: $ra-var-icon-montains; 
-  }
-}
-
 .#{$ra-css-prefix}-moon-sun {
   &:before {
     content: $ra-var-icon-moon-sun; 
+  }
+}
+
+.#{$ra-css-prefix}-mountains {
+  &:before {
+    content: $ra-var-icon-mountains; 
   }
 }
 
@@ -2354,6 +2330,12 @@
   }
 }
 
+.#{$ra-css-prefix}-perspective-dice-two {
+  &:before {
+    content: $ra-var-icon-perspective-dice-two; 
+  }
+}
+
 .#{$ra-css-prefix}-pig {
   &:before {
     content: $ra-var-icon-pig; 
@@ -2483,6 +2465,12 @@
 .#{$ra-css-prefix}-psychic-waves {
   &:before {
     content: $ra-var-icon-psychic-waves; 
+  }
+}
+
+.#{$ra-css-prefix}-pumpkin-lantern {
+  &:before {
+    content: $ra-var-icon-pumpkin-lantern; 
   }
 }
 
@@ -3002,6 +2990,12 @@
   }
 }
 
+.#{$ra-css-prefix}-sword {
+  &:before {
+    content: $ra-var-icon-sword; 
+  }
+}
+
 .#{$ra-css-prefix}-syringe {
   &:before {
     content: $ra-var-icon-syringe; 
@@ -3263,6 +3257,12 @@
 .#{$ra-css-prefix}-wolf-howl {
   &:before {
     content: $ra-var-icon-wolf-howl; 
+  }
+}
+
+.#{$ra-css-prefix}-wood-beam {
+  &:before {
+    content: $ra-var-icon-wood-beam; 
   }
 }
 
