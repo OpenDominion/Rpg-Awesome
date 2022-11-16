@@ -2,7 +2,7 @@
   "name": "@opendominion/rpg-awesome",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "repository": {
     "type": "git",
     "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
@@ -27,6 +27,7 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "grunt-sass": "^3.1.0"
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^8.0.0"
   }
 }

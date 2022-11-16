@@ -1,6 +1,11 @@
 // Icons
 // --------------------------
 
+.#{$ra-css-prefix}-abacus {
+  &:before {
+    content: $ra-var-icon-abacus; 
+  }
+}
 
 .#{$ra-css-prefix}-achievement {
   &:before {
@@ -164,6 +169,12 @@
   }
 }
 
+.#{$ra-css-prefix}-axe {
+  &:before {
+    content: $ra-var-icon-axe; 
+  }
+}
+
 .#{$ra-css-prefix}-axe-in-log {
   &:before {
     content: $ra-var-icon-axe-in-log; 
@@ -179,12 +190,6 @@
 .#{$ra-css-prefix}-axe-sword {
   &:before {
     content: $ra-var-icon-axe-sword; 
-  }
-}
-
-.#{$ra-css-prefix}-axe {
-  &:before {
-    content: $ra-var-icon-axe; 
   }
 }
 
@@ -242,6 +247,12 @@
   }
 }
 
+.#{$ra-css-prefix}-battery-100 {
+  &:before {
+    content: $ra-var-icon-battery-100; 
+  }
+}
+
 .#{$ra-css-prefix}-battery-25 {
   &:before {
     content: $ra-var-icon-battery-25; 
@@ -257,12 +268,6 @@
 .#{$ra-css-prefix}-battery-75 {
   &:before {
     content: $ra-var-icon-battery-75; 
-  }
-}
-
-.#{$ra-css-prefix}-battery-100 {
-  &:before {
-    content: $ra-var-icon-battery-100; 
   }
 }
 
@@ -596,15 +601,15 @@
   }
 }
 
-.#{$ra-css-prefix}-candle-fire {
-  &:before {
-    content: $ra-var-icon-candle-fire; 
-  }
-}
-
 .#{$ra-css-prefix}-candle {
   &:before {
     content: $ra-var-icon-candle; 
+  }
+}
+
+.#{$ra-css-prefix}-candle-fire {
+  &:before {
+    content: $ra-var-icon-candle-fire; 
   }
 }
 
@@ -632,6 +637,12 @@
   }
 }
 
+.#{$ra-css-prefix}-castle {
+  &:before {
+    content: $ra-var-icon-castle; 
+  }
+}
+
 .#{$ra-css-prefix}-castle-emblem {
   &:before {
     content: $ra-var-icon-castle-emblem; 
@@ -641,12 +652,6 @@
 .#{$ra-css-prefix}-castle-flag {
   &:before {
     content: $ra-var-icon-castle-flag; 
-  }
-}
-
-.#{$ra-css-prefix}-castle {
-  &:before {
-    content: $ra-var-icon-castle; 
   }
 }
 
@@ -734,15 +739,15 @@
   }
 }
 
-.#{$ra-css-prefix}-clovers-card {
-  &:before {
-    content: $ra-var-icon-clovers-card; 
-  }
-}
-
 .#{$ra-css-prefix}-clovers {
   &:before {
     content: $ra-var-icon-clovers; 
+  }
+}
+
+.#{$ra-css-prefix}-clovers-card {
+  &:before {
+    content: $ra-var-icon-clovers-card; 
   }
 }
 
@@ -764,15 +769,15 @@
   }
 }
 
-.#{$ra-css-prefix}-cog-wheel {
-  &:before {
-    content: $ra-var-icon-cog-wheel; 
-  }
-}
-
 .#{$ra-css-prefix}-cog {
   &:before {
     content: $ra-var-icon-cog; 
+  }
+}
+
+.#{$ra-css-prefix}-cog-wheel {
+  &:before {
+    content: $ra-var-icon-cog-wheel; 
   }
 }
 
@@ -872,15 +877,15 @@
   }
 }
 
-.#{$ra-css-prefix}-crown-of-thorns {
-  &:before {
-    content: $ra-var-icon-crown-of-thorns; 
-  }
-}
-
 .#{$ra-css-prefix}-crown {
   &:before {
     content: $ra-var-icon-crown; 
+  }
+}
+
+.#{$ra-css-prefix}-crown-of-thorns {
+  &:before {
+    content: $ra-var-icon-crown-of-thorns; 
   }
 }
 
@@ -998,15 +1003,21 @@
   }
 }
 
-.#{$ra-css-prefix}-diamonds-card {
+.#{$ra-css-prefix}-diamond-hilt {
   &:before {
-    content: $ra-var-icon-diamonds-card; 
+    content: $ra-var-icon-diamond-hilt; 
   }
 }
 
 .#{$ra-css-prefix}-diamonds {
   &:before {
     content: $ra-var-icon-diamonds; 
+  }
+}
+
+.#{$ra-css-prefix}-diamonds-card {
+  &:before {
+    content: $ra-var-icon-diamonds-card; 
   }
 }
 
@@ -1076,6 +1087,12 @@
   }
 }
 
+.#{$ra-css-prefix}-dragon {
+  &:before {
+    content: $ra-var-icon-dragon; 
+  }
+}
+
 .#{$ra-css-prefix}-dragon-breath {
   &:before {
     content: $ra-var-icon-dragon-breath; 
@@ -1085,12 +1102,6 @@
 .#{$ra-css-prefix}-dragon-wing {
   &:before {
     content: $ra-var-icon-dragon-wing; 
-  }
-}
-
-.#{$ra-css-prefix}-dragon {
-  &:before {
-    content: $ra-var-icon-dragon; 
   }
 }
 
@@ -1124,15 +1135,15 @@
   }
 }
 
-.#{$ra-css-prefix}-droplet-splash {
-  &:before {
-    content: $ra-var-icon-droplet-splash; 
-  }
-}
-
 .#{$ra-css-prefix}-droplet {
   &:before {
     content: $ra-var-icon-droplet; 
+  }
+}
+
+.#{$ra-css-prefix}-droplet-splash {
+  &:before {
+    content: $ra-var-icon-droplet-splash; 
   }
 }
 
@@ -1154,15 +1165,15 @@
   }
 }
 
-.#{$ra-css-prefix}-egg-pod {
-  &:before {
-    content: $ra-var-icon-egg-pod; 
-  }
-}
-
 .#{$ra-css-prefix}-egg {
   &:before {
     content: $ra-var-icon-egg; 
+  }
+}
+
+.#{$ra-css-prefix}-egg-pod {
+  &:before {
+    content: $ra-var-icon-egg-pod; 
   }
 }
 
@@ -1220,15 +1231,15 @@
   }
 }
 
-.#{$ra-css-prefix}-fairy-wand {
-  &:before {
-    content: $ra-var-icon-fairy-wand; 
-  }
-}
-
 .#{$ra-css-prefix}-fairy {
   &:before {
     content: $ra-var-icon-fairy; 
+  }
+}
+
+.#{$ra-css-prefix}-fairy-wand {
+  &:before {
+    content: $ra-var-icon-fairy-wand; 
   }
 }
 
@@ -1268,6 +1279,12 @@
   }
 }
 
+.#{$ra-css-prefix}-fire {
+  &:before {
+    content: $ra-var-icon-fire; 
+  }
+}
+
 .#{$ra-css-prefix}-fire-bomb {
   &:before {
     content: $ra-var-icon-fire-bomb; 
@@ -1298,12 +1315,6 @@
   }
 }
 
-.#{$ra-css-prefix}-fire {
-  &:before {
-    content: $ra-var-icon-fire; 
-  }
-}
-
 .#{$ra-css-prefix}-fireball-sword {
   &:before {
     content: $ra-var-icon-fireball-sword; 
@@ -1328,15 +1339,15 @@
   }
 }
 
-.#{$ra-css-prefix}-flame-symbol {
-  &:before {
-    content: $ra-var-icon-flame-symbol; 
-  }
-}
-
 .#{$ra-css-prefix}-flame {
   &:before {
     content: $ra-var-icon-flame; 
+  }
+}
+
+.#{$ra-css-prefix}-flame-symbol {
+  &:before {
+    content: $ra-var-icon-flame-symbol; 
   }
 }
 
@@ -1448,15 +1459,15 @@
   }
 }
 
-.#{$ra-css-prefix}-gamepad-cross {
-  &:before {
-    content: $ra-var-icon-gamepad-cross; 
-  }
-}
-
 .#{$ra-css-prefix}-gamepad {
   &:before {
     content: $ra-var-icon-gamepad; 
+  }
+}
+
+.#{$ra-css-prefix}-gamepad-cross {
+  &:before {
+    content: $ra-var-icon-gamepad-cross; 
   }
 }
 
@@ -1490,15 +1501,15 @@
   }
 }
 
-.#{$ra-css-prefix}-gem-pendant {
-  &:before {
-    content: $ra-var-icon-gem-pendant; 
-  }
-}
-
 .#{$ra-css-prefix}-gem {
   &:before {
     content: $ra-var-icon-gem; 
+  }
+}
+
+.#{$ra-css-prefix}-gem-pendant {
+  &:before {
+    content: $ra-var-icon-gem-pendant; 
   }
 }
 
@@ -1544,15 +1555,15 @@
   }
 }
 
-.#{$ra-css-prefix}-grass-patch {
-  &:before {
-    content: $ra-var-icon-grass-patch; 
-  }
-}
-
 .#{$ra-css-prefix}-grass {
   &:before {
     content: $ra-var-icon-grass; 
+  }
+}
+
+.#{$ra-css-prefix}-grass-patch {
+  &:before {
+    content: $ra-var-icon-grass-patch; 
   }
 }
 
@@ -1598,15 +1609,21 @@
   }
 }
 
+.#{$ra-css-prefix}-hammer {
+  &:before {
+    content: $ra-var-icon-hammer; 
+  }
+}
+
 .#{$ra-css-prefix}-hammer-drop {
   &:before {
     content: $ra-var-icon-hammer-drop; 
   }
 }
 
-.#{$ra-css-prefix}-hammer {
+.#{$ra-css-prefix}-hand {
   &:before {
-    content: $ra-var-icon-hammer; 
+    content: $ra-var-icon-hand; 
   }
 }
 
@@ -1622,12 +1639,6 @@
   }
 }
 
-.#{$ra-css-prefix}-hand {
-  &:before {
-    content: $ra-var-icon-hand; 
-  }
-}
-
 .#{$ra-css-prefix}-harpoon-trident {
   &:before {
     content: $ra-var-icon-harpoon-trident; 
@@ -1640,6 +1651,12 @@
   }
 }
 
+.#{$ra-css-prefix}-health {
+  &:before {
+    content: $ra-var-icon-health; 
+  }
+}
+
 .#{$ra-css-prefix}-health-decrease {
   &:before {
     content: $ra-var-icon-health-decrease; 
@@ -1649,12 +1666,6 @@
 .#{$ra-css-prefix}-health-increase {
   &:before {
     content: $ra-var-icon-health-increase; 
-  }
-}
-
-.#{$ra-css-prefix}-health {
-  &:before {
-    content: $ra-var-icon-health; 
   }
 }
 
@@ -1676,15 +1687,15 @@
   }
 }
 
-.#{$ra-css-prefix}-hearts-card {
-  &:before {
-    content: $ra-var-icon-hearts-card; 
-  }
-}
-
 .#{$ra-css-prefix}-hearts {
   &:before {
     content: $ra-var-icon-hearts; 
+  }
+}
+
+.#{$ra-css-prefix}-hearts-card {
+  &:before {
+    content: $ra-var-icon-hearts-card; 
   }
 }
 
@@ -1784,15 +1795,15 @@
   }
 }
 
-.#{$ra-css-prefix}-hydra-shot {
-  &:before {
-    content: $ra-var-icon-hydra-shot; 
-  }
-}
-
 .#{$ra-css-prefix}-hydra {
   &:before {
     content: $ra-var-icon-hydra; 
+  }
+}
+
+.#{$ra-css-prefix}-hydra-shot {
+  &:before {
+    content: $ra-var-icon-hydra-shot; 
   }
 }
 
@@ -1862,15 +1873,15 @@
   }
 }
 
-.#{$ra-css-prefix}-key-basic {
-  &:before {
-    content: $ra-var-icon-key-basic; 
-  }
-}
-
 .#{$ra-css-prefix}-key {
   &:before {
     content: $ra-var-icon-key; 
+  }
+}
+
+.#{$ra-css-prefix}-key-basic {
+  &:before {
+    content: $ra-var-icon-key-basic; 
   }
 }
 
@@ -1880,15 +1891,15 @@
   }
 }
 
-.#{$ra-css-prefix}-knife-fork {
-  &:before {
-    content: $ra-var-icon-knife-fork; 
-  }
-}
-
 .#{$ra-css-prefix}-knife {
   &:before {
     content: $ra-var-icon-knife; 
+  }
+}
+
+.#{$ra-css-prefix}-knife-fork {
+  &:before {
+    content: $ra-var-icon-knife-fork; 
   }
 }
 
@@ -1946,21 +1957,15 @@
   }
 }
 
-.#{$ra-css-prefix}-level-four-advanced {
-  &:before {
-    content: $ra-var-icon-level-four-advanced; 
-  }
-}
-
 .#{$ra-css-prefix}-level-four {
   &:before {
     content: $ra-var-icon-level-four; 
   }
 }
 
-.#{$ra-css-prefix}-level-three-advanced {
+.#{$ra-css-prefix}-level-four-advanced {
   &:before {
-    content: $ra-var-icon-level-three-advanced; 
+    content: $ra-var-icon-level-four-advanced; 
   }
 }
 
@@ -1970,15 +1975,21 @@
   }
 }
 
-.#{$ra-css-prefix}-level-two-advanced {
+.#{$ra-css-prefix}-level-three-advanced {
   &:before {
-    content: $ra-var-icon-level-two-advanced; 
+    content: $ra-var-icon-level-three-advanced; 
   }
 }
 
 .#{$ra-css-prefix}-level-two {
   &:before {
     content: $ra-var-icon-level-two; 
+  }
+}
+
+.#{$ra-css-prefix}-level-two-advanced {
+  &:before {
+    content: $ra-var-icon-level-two-advanced; 
   }
 }
 
@@ -2006,6 +2017,12 @@
   }
 }
 
+.#{$ra-css-prefix}-lightning {
+  &:before {
+    content: $ra-var-icon-lightning; 
+  }
+}
+
 .#{$ra-css-prefix}-lightning-bolt {
   &:before {
     content: $ra-var-icon-lightning-bolt; 
@@ -2027,12 +2044,6 @@
 .#{$ra-css-prefix}-lightning-trio {
   &:before {
     content: $ra-var-icon-lightning-trio; 
-  }
-}
-
-.#{$ra-css-prefix}-lightning {
-  &:before {
-    content: $ra-var-icon-lightning; 
   }
 }
 
@@ -2096,15 +2107,15 @@
   }
 }
 
-.#{$ra-css-prefix}-meat-hook {
-  &:before {
-    content: $ra-var-icon-meat-hook; 
-  }
-}
-
 .#{$ra-css-prefix}-meat {
   &:before {
     content: $ra-var-icon-meat; 
+  }
+}
+
+.#{$ra-css-prefix}-meat-hook {
+  &:before {
+    content: $ra-var-icon-meat-hook; 
   }
 }
 
@@ -2378,6 +2389,12 @@
   }
 }
 
+.#{$ra-css-prefix}-player {
+  &:before {
+    content: $ra-var-icon-player; 
+  }
+}
+
 .#{$ra-css-prefix}-player-despair {
   &:before {
     content: $ra-var-icon-player-despair; 
@@ -2432,12 +2449,6 @@
   }
 }
 
-.#{$ra-css-prefix}-player {
-  &:before {
-    content: $ra-var-icon-player; 
-  }
-}
-
 .#{$ra-css-prefix}-podium {
   &:before {
     content: $ra-var-icon-podium; 
@@ -2459,6 +2470,12 @@
 .#{$ra-css-prefix}-potion {
   &:before {
     content: $ra-var-icon-potion; 
+  }
+}
+
+.#{$ra-css-prefix}-prank-glasses {
+  &:before {
+    content: $ra-var-icon-prank-glasses; 
   }
 }
 
@@ -2750,15 +2767,15 @@
   }
 }
 
-.#{$ra-css-prefix}-skull-trophy {
-  &:before {
-    content: $ra-var-icon-skull-trophy; 
-  }
-}
-
 .#{$ra-css-prefix}-skull {
   &:before {
     content: $ra-var-icon-skull; 
+  }
+}
+
+.#{$ra-css-prefix}-skull-trophy {
+  &:before {
+    content: $ra-var-icon-skull-trophy; 
   }
 }
 
@@ -2810,15 +2827,15 @@
   }
 }
 
-.#{$ra-css-prefix}-spades-card {
-  &:before {
-    content: $ra-var-icon-spades-card; 
-  }
-}
-
 .#{$ra-css-prefix}-spades {
   &:before {
     content: $ra-var-icon-spades; 
+  }
+}
+
+.#{$ra-css-prefix}-spades-card {
+  &:before {
+    content: $ra-var-icon-spades-card; 
   }
 }
 
@@ -2912,15 +2929,15 @@
   }
 }
 
-.#{$ra-css-prefix}-sprout-emblem {
-  &:before {
-    content: $ra-var-icon-sprout-emblem; 
-  }
-}
-
 .#{$ra-css-prefix}-sprout {
   &:before {
     content: $ra-var-icon-sprout; 
+  }
+}
+
+.#{$ra-css-prefix}-sprout-emblem {
+  &:before {
+    content: $ra-var-icon-sprout-emblem; 
   }
 }
 
@@ -2954,15 +2971,15 @@
   }
 }
 
-.#{$ra-css-prefix}-sun-symbol {
-  &:before {
-    content: $ra-var-icon-sun-symbol; 
-  }
-}
-
 .#{$ra-css-prefix}-sun {
   &:before {
     content: $ra-var-icon-sun; 
+  }
+}
+
+.#{$ra-css-prefix}-sun-symbol {
+  &:before {
+    content: $ra-var-icon-sun-symbol; 
   }
 }
 
@@ -3307,3 +3324,4 @@
     content: $ra-var-icon-zigzag-leaf; 
   }
 }
+
