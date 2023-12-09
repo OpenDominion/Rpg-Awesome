@@ -2,7 +2,7 @@
   "name": "@opendominion/rpg-awesome",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "repository": {
     "type": "git",
     "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
@@ -12,7 +12,7 @@
     "grunt-cli": "^1.4.3",
     "grunt-contrib-cssmin": "~0.11.0",
     "grunt-contrib-sass": "~0.8.1",
-    "grunt-scss-lint": "~0.3.4"
+    "grunt-scss-lint": "^0.3.8"
   },
   "scripts": {
     "build": "grunt",
