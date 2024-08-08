@@ -2977,6 +2977,12 @@
   }
 }
 
+.ra-spyglass {
+  &:before {
+    content: $ra-spyglass; 
+  }
+}
+
 .ra-stabbed-note {
   &:before {
     content: $ra-stabbed-note; 

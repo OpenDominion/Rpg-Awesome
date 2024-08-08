@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.14");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.14") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.14") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.14") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.14#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.15");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.15") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.15") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.15") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.15#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -2172,6 +2172,10 @@
 
 .ra-spy:before {
   content: "";
+}
+
+.ra-spyglass:before {
+  content: "";
 }
 
 .ra-stabbed-note:before {
