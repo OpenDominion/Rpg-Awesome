@@ -73,6 +73,12 @@
   }
 }
 
+.ra-annexation {
+  &:before {
+    content: $ra-annexation; 
+  }
+}
+
 .ra-anvil {
   &:before {
     content: $ra-anvil; 
@@ -223,6 +229,18 @@
   }
 }
 
+.ra-battle-axe {
+  &:before {
+    content: $ra-battle-axe; 
+  }
+}
+
+.ra-battle-gear {
+  &:before {
+    content: $ra-battle-gear; 
+  }
+}
+
 .ra-batwings {
   &:before {
     content: $ra-batwings; 
@@ -277,6 +295,12 @@
   }
 }
 
+.ra-black-book {
+  &:before {
+    content: $ra-black-book; 
+  }
+}
+
 .ra-blade-bite {
   &:before {
     content: $ra-blade-bite; 
@@ -286,12 +310,6 @@
 .ra-blast {
   &:before {
     content: $ra-blast; 
-  }
-}
-
-.ra-blaster {
-  &:before {
-    content: $ra-blaster; 
   }
 }
 
@@ -319,12 +337,6 @@
   }
 }
 
-.ra-bombs {
-  &:before {
-    content: $ra-bombs; 
-  }
-}
-
 .ra-bone-bite {
   &:before {
     content: $ra-bone-bite; 
@@ -334,6 +346,12 @@
 .ra-bone-knife {
   &:before {
     content: $ra-bone-knife; 
+  }
+}
+
+.ra-book-cover {
+  &:before {
+    content: $ra-book-cover; 
   }
 }
 
@@ -382,6 +400,12 @@
 .ra-bowling-pin {
   &:before {
     content: $ra-bowling-pin; 
+  }
+}
+
+.ra-bracer {
+  &:before {
+    content: $ra-bracer; 
   }
 }
 
@@ -535,12 +559,6 @@
   }
 }
 
-.ra-cannon-shot {
-  &:before {
-    content: $ra-cannon-shot; 
-  }
-}
-
 .ra-capitol {
   &:before {
     content: $ra-capitol; 
@@ -685,12 +703,6 @@
   }
 }
 
-.ra-cluster-bomb {
-  &:before {
-    content: $ra-cluster-bomb; 
-  }
-}
-
 .ra-coal-wagon {
   &:before {
     content: $ra-coal-wagon; 
@@ -745,6 +757,12 @@
   }
 }
 
+.ra-cook {
+  &:before {
+    content: $ra-cook; 
+  }
+}
+
 .ra-corked-tube {
   &:before {
     content: $ra-corked-tube; 
@@ -796,12 +814,6 @@
 .ra-crossed-bones {
   &:before {
     content: $ra-crossed-bones; 
-  }
-}
-
-.ra-crossed-pistols {
-  &:before {
-    content: $ra-crossed-pistols; 
   }
 }
 
@@ -1027,6 +1039,12 @@
   }
 }
 
+.ra-direction-signs {
+  &:before {
+    content: $ra-direction-signs; 
+  }
+}
+
 .ra-divert {
   &:before {
     content: $ra-divert; 
@@ -1099,6 +1117,12 @@
   }
 }
 
+.ra-drop-weapon {
+  &:before {
+    content: $ra-drop-weapon; 
+  }
+}
+
 .ra-droplet-splash {
   &:before {
     content: $ra-droplet-splash; 
@@ -1117,9 +1141,9 @@
   }
 }
 
-.ra-duel {
+.ra-dwarf-face {
   &:before {
-    content: $ra-duel; 
+    content: $ra-dwarf-face; 
   }
 }
 
@@ -1144,6 +1168,12 @@
 .ra-eggplant {
   &:before {
     content: $ra-eggplant; 
+  }
+}
+
+.ra-embrassed-energy {
+  &:before {
+    content: $ra-embrassed-energy; 
   }
 }
 
@@ -1240,6 +1270,12 @@
 .ra-fedora {
   &:before {
     content: $ra-fedora; 
+  }
+}
+
+.ra-fire-axe {
+  &:before {
+    content: $ra-fire-axe; 
   }
 }
 
@@ -1435,6 +1471,12 @@
   }
 }
 
+.ra-gauntlet {
+  &:before {
+    content: $ra-gauntlet; 
+  }
+}
+
 .ra-gavel {
   &:before {
     content: $ra-gavel; 
@@ -1465,6 +1507,12 @@
   }
 }
 
+.ra-gem-chain {
+  &:before {
+    content: $ra-gem-chain; 
+  }
+}
+
 .ra-gem-pendant {
   &:before {
     content: $ra-gem-pendant; 
@@ -1474,6 +1522,12 @@
 .ra-gemini {
   &:before {
     content: $ra-gemini; 
+  }
+}
+
+.ra-gift-of-knowledge {
+  &:before {
+    content: $ra-gift-of-knowledge; 
   }
 }
 
@@ -1759,6 +1813,12 @@
   }
 }
 
+.ra-hunting-horn {
+  &:before {
+    content: $ra-hunting-horn; 
+  }
+}
+
 .ra-hydra-shot {
   &:before {
     content: $ra-hydra-shot; 
@@ -1774,6 +1834,12 @@
 .ra-ice-cube {
   &:before {
     content: $ra-ice-cube; 
+  }
+}
+
+.ra-ifrit {
+  &:before {
+    content: $ra-ifrit; 
   }
 }
 
@@ -1807,15 +1873,15 @@
   }
 }
 
-.ra-jester-hat {
+.ra-invisible {
   &:before {
-    content: $ra-jester-hat; 
+    content: $ra-invisible; 
   }
 }
 
-.ra-jetpack {
+.ra-jester-hat {
   &:before {
-    content: $ra-jetpack; 
+    content: $ra-jester-hat; 
   }
 }
 
@@ -1873,6 +1939,12 @@
   }
 }
 
+.ra-knight-banner {
+  &:before {
+    content: $ra-knight-banner; 
+  }
+}
+
 .ra-knight-helmet {
   &:before {
     content: $ra-knight-helmet; 
@@ -1897,18 +1969,6 @@
   }
 }
 
-.ra-laser-blast {
-  &:before {
-    content: $ra-laser-blast; 
-  }
-}
-
-.ra-laser-site {
-  &:before {
-    content: $ra-laser-site; 
-  }
-}
-
 .ra-lava {
   &:before {
     content: $ra-lava; 
@@ -1918,6 +1978,12 @@
 .ra-leaf {
   &:before {
     content: $ra-leaf; 
+  }
+}
+
+.ra-leg-armor {
+  &:before {
+    content: $ra-leg-armor; 
   }
 }
 
@@ -2029,12 +2095,6 @@
   }
 }
 
-.ra-load {
-  &:before {
-    content: $ra-load; 
-  }
-}
-
 .ra-locked-fortress {
   &:before {
     content: $ra-locked-fortress; 
@@ -2050,6 +2110,12 @@
 .ra-maggot {
   &:before {
     content: $ra-maggot; 
+  }
+}
+
+.ra-magic-axe {
+  &:before {
+    content: $ra-magic-axe; 
   }
 }
 
@@ -2119,9 +2185,9 @@
   }
 }
 
-.ra-microphone {
+.ra-mighty-force {
   &:before {
-    content: $ra-microphone; 
+    content: $ra-mighty-force; 
   }
 }
 
@@ -2167,12 +2233,6 @@
   }
 }
 
-.ra-mp5 {
-  &:before {
-    content: $ra-mp5; 
-  }
-}
-
 .ra-muscle-fat {
   &:before {
     content: $ra-muscle-fat; 
@@ -2182,12 +2242,6 @@
 .ra-muscle-up {
   &:before {
     content: $ra-muscle-up; 
-  }
-}
-
-.ra-musket {
-  &:before {
-    content: $ra-musket; 
   }
 }
 
@@ -2284,6 +2338,12 @@
 .ra-overmind {
   &:before {
     content: $ra-overmind; 
+  }
+}
+
+.ra-padlock {
+  &:before {
+    content: $ra-padlock; 
   }
 }
 
@@ -2425,6 +2485,12 @@
   }
 }
 
+.ra-potion-ball {
+  &:before {
+    content: $ra-potion-ball; 
+  }
+}
+
 .ra-potion {
   &:before {
     content: $ra-potion; 
@@ -2473,12 +2539,6 @@
   }
 }
 
-.ra-radar-dish {
-  &:before {
-    content: $ra-radar-dish; 
-  }
-}
-
 .ra-radial-balance {
   &:before {
     content: $ra-radial-balance; 
@@ -2488,6 +2548,12 @@
 .ra-radioactive {
   &:before {
     content: $ra-radioactive; 
+  }
+}
+
+.ra-raise-zombie {
+  &:before {
+    content: $ra-raise-zombie; 
   }
 }
 
@@ -2533,6 +2599,12 @@
   }
 }
 
+.ra-ring {
+  &:before {
+    content: $ra-ring; 
+  }
+}
+
 .ra-ringing-bell {
   &:before {
     content: $ra-ringing-bell; 
@@ -2542,6 +2614,12 @@
 .ra-roast-chicken {
   &:before {
     content: $ra-roast-chicken; 
+  }
+}
+
+.ra-robe {
+  &:before {
+    content: $ra-robe; 
   }
 }
 
@@ -2587,15 +2665,15 @@
   }
 }
 
-.ra-satellite {
-  &:before {
-    content: $ra-satellite; 
-  }
-}
-
 .ra-scorpio {
   &:before {
     content: $ra-scorpio; 
+  }
+}
+
+.ra-scroll-quill {
+  &:before {
+    content: $ra-scroll-quill; 
   }
 }
 
@@ -2641,6 +2719,12 @@
   }
 }
 
+.ra-shield-reflect {
+  &:before {
+    content: $ra-shield-reflect; 
+  }
+}
+
 .ra-shield {
   &:before {
     content: $ra-shield; 
@@ -2650,12 +2734,6 @@
 .ra-shinto-shrine {
   &:before {
     content: $ra-shinto-shrine; 
-  }
-}
-
-.ra-ship-emblem {
-  &:before {
-    content: $ra-ship-emblem; 
   }
 }
 
@@ -2704,6 +2782,12 @@
 .ra-sinking-ship {
   &:before {
     content: $ra-sinking-ship; 
+  }
+}
+
+.ra-skull-staff {
+  &:before {
+    content: $ra-skull-staff; 
   }
 }
 
@@ -2779,12 +2863,6 @@
   }
 }
 
-.ra-spawn-node {
-  &:before {
-    content: $ra-spawn-node; 
-  }
-}
-
 .ra-spear-head {
   &:before {
     content: $ra-spear-head; 
@@ -2800,6 +2878,12 @@
 .ra-speech-bubbles {
   &:before {
     content: $ra-speech-bubbles; 
+  }
+}
+
+.ra-spell-book {
+  &:before {
+    content: $ra-spell-book; 
   }
 }
 
@@ -2941,6 +3025,12 @@
   }
 }
 
+.ra-summits {
+  &:before {
+    content: $ra-summits; 
+  }
+}
+
 .ra-sun-symbol {
   &:before {
     content: $ra-sun-symbol; 
@@ -2983,6 +3073,12 @@
   }
 }
 
+.ra-target-dummy {
+  &:before {
+    content: $ra-target-dummy; 
+  }
+}
+
 .ra-target-poster {
   &:before {
     content: $ra-target-poster; 
@@ -3007,12 +3103,6 @@
   }
 }
 
-.ra-tesla {
-  &:before {
-    content: $ra-tesla; 
-  }
-}
-
 .ra-thorn-arrow {
   &:before {
     content: $ra-thorn-arrow; 
@@ -3031,9 +3121,9 @@
   }
 }
 
-.ra-tic-tac-toe {
+.ra-tied-scroll {
   &:before {
-    content: $ra-tic-tac-toe; 
+    content: $ra-tied-scroll; 
   }
 }
 
@@ -3079,6 +3169,12 @@
   }
 }
 
+.ra-treasure-map {
+  &:before {
+    content: $ra-treasure-map; 
+  }
+}
+
 .ra-trefoil-lily {
   &:before {
     content: $ra-trefoil-lily; 
@@ -3100,6 +3196,12 @@
 .ra-trophy {
   &:before {
     content: $ra-trophy; 
+  }
+}
+
+.ra-trumpet-flag {
+  &:before {
+    content: $ra-trumpet-flag; 
   }
 }
 
@@ -3133,12 +3235,6 @@
   }
 }
 
-.ra-unplugged {
-  &:before {
-    content: $ra-unplugged; 
-  }
-}
-
 .ra-upgrade {
   &:before {
     content: $ra-upgrade; 
@@ -3157,6 +3253,12 @@
   }
 }
 
+.ra-vertical-banner {
+  &:before {
+    content: $ra-vertical-banner; 
+  }
+}
+
 .ra-vial {
   &:before {
     content: $ra-vial; 
@@ -3172,6 +3274,12 @@
 .ra-virgo {
   &:before {
     content: $ra-virgo; 
+  }
+}
+
+.ra-wanted-reward {
+  &:before {
+    content: $ra-wanted-reward; 
   }
 }
 
@@ -3217,6 +3325,12 @@
   }
 }
 
+.ra-white-book {
+  &:before {
+    content: $ra-white-book; 
+  }
+}
+
 .ra-white-tower {
   &:before {
     content: $ra-white-tower; 
@@ -3253,9 +3367,27 @@
   }
 }
 
+.ra-wolf-trap {
+  &:before {
+    content: $ra-wolf-trap; 
+  }
+}
+
+.ra-wood-axe {
+  &:before {
+    content: $ra-wood-axe; 
+  }
+}
+
 .ra-wood-beam {
   &:before {
     content: $ra-wood-beam; 
+  }
+}
+
+.ra-wood-pile {
+  &:before {
+    content: $ra-wood-pile; 
   }
 }
 
