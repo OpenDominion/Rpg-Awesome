@@ -121,6 +121,12 @@
   }
 }
 
+.ra-archive-research {
+  &:before {
+    content: $ra-archive-research; 
+  }
+}
+
 .ra-arena {
   &:before {
     content: $ra-arena; 
@@ -664,6 +670,12 @@
 .ra-circular-shield {
   &:before {
     content: $ra-circular-shield; 
+  }
+}
+
+.ra-classical-knowledge {
+  &:before {
+    content: $ra-classical-knowledge; 
   }
 }
 
@@ -1564,6 +1576,12 @@
 .ra-gold-stack {
   &:before {
     content: $ra-gold-stack; 
+  }
+}
+
+.ra-graduate-cap {
+  &:before {
+    content: $ra-graduate-cap; 
   }
 }
 

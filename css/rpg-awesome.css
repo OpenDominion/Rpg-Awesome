@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.15");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.15") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.15") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.15") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.15#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.16");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.16") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.16") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.16") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.16#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -268,6 +268,10 @@
 
 .ra-archery-target:before {
   content: "";
+}
+
+.ra-archive-research:before {
+  content: "";
 }
 
 .ra-arena:before {
@@ -632,6 +636,10 @@
 
 .ra-circular-shield:before {
   content: "";
+}
+
+.ra-classical-knowledge:before {
+  content: "";
 }
 
 .ra-cloak-and-dagger:before {
@@ -1232,6 +1240,10 @@
 
 .ra-gold-stack:before {
   content: "";
+}
+
+.ra-graduate-cap:before {
+  content: "";
 }
 
 .ra-grappling-hook:before {
