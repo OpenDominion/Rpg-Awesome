@@ -751,6 +751,12 @@
   }
 }
 
+.ra-coliseum {
+  &:before {
+    content: $ra-coliseum; 
+  }
+}
+
 .ra-compass {
   &:before {
     content: $ra-compass; 
@@ -802,6 +808,12 @@
 .ra-cracked-shield {
   &:before {
     content: $ra-cracked-shield; 
+  }
+}
+
+.ra-crested-helmet {
+  &:before {
+    content: $ra-crested-helmet; 
   }
 }
 
@@ -1159,6 +1171,12 @@
   }
 }
 
+.ra-dwarf-helmet {
+  &:before {
+    content: $ra-dwarf-helmet; 
+  }
+}
+
 .ra-earth-crack {
   &:before {
     content: $ra-earth-crack; 
@@ -1180,6 +1198,12 @@
 .ra-eggplant {
   &:before {
     content: $ra-eggplant; 
+  }
+}
+
+.ra-elf-helmet {
+  &:before {
+    content: $ra-elf-helmet; 
   }
 }
 
@@ -2881,6 +2905,12 @@
   }
 }
 
+.ra-spartan-helmet {
+  &:before {
+    content: $ra-spartan-helmet; 
+  }
+}
+
 .ra-spear-head {
   &:before {
     content: $ra-spear-head; 
@@ -3088,6 +3118,12 @@
 .ra-sword {
   &:before {
     content: $ra-sword; 
+  }
+}
+
+.ra-sword-clash {
+  &:before {
+    content: $ra-sword-clash; 
   }
 }
 

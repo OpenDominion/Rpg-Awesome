@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.17");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.17") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.17") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.17") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.17#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.15");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.15") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.15") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.15") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.15#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -690,6 +690,10 @@
   content: "";
 }
 
+.ra-coliseum:before {
+  content: "";
+}
+
 .ra-compass:before {
   content: "";
 }
@@ -724,6 +728,10 @@
 
 .ra-cracked-shield:before {
   content: "";
+}
+
+.ra-crested-helmet:before {
+  content: "";
 }
 
 .ra-croc-sword:before {
@@ -962,6 +970,10 @@
   content: "";
 }
 
+.ra-dwarf-helmet:before {
+  content: "";
+}
+
 .ra-earth-crack:before {
   content: "";
 }
@@ -976,6 +988,10 @@
 
 .ra-eggplant:before {
   content: "";
+}
+
+.ra-elf-helmet:before {
+  content: "";
 }
 
 .ra-embrassed-energy:before {
@@ -2110,6 +2126,10 @@
   content: "";
 }
 
+.ra-spartan-helmet:before {
+  content: "";
+}
+
 .ra-spear-head:before {
   content: "";
 }
@@ -2248,6 +2268,10 @@
 
 .ra-sword:before {
   content: "";
+}
+
+.ra-sword-clash:before {
+  content: "";
 }
 
 .ra-target-arrows:before {
