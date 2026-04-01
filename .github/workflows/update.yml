@@ -16,6 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Download assets from rpg-awesome-raw
         run: |
           gh release download ${{ inputs.raw_version }} \
@@ -33,29 +41,28 @@ jobs:
           cp /tmp/raw/_variables.scss scss/
           cp /tmp/raw/_icons.scss scss/
 
-      - name: Bump version in package.json
+      - name: Bump version in package.json and _config.scss
         run: |
           VERSION="${{ inputs.raw_version }}"
           VERSION="${VERSION#v}"
           jq ".version = \"$VERSION\"" package.json > package.json.tmp
           mv package.json.tmp package.json
+          sed -i "s/\$ra-version: '[^']*'/\$ra-version: '$VERSION'/" scss/_config.scss
+
+      - name: Fix lint in generated SCSS
+        run: npm run lint-fix
 
       - name: Build CSS
-        run: docker compose run --build --rm build
+        run: npm run build
 
       - name: Commit and tag
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add fonts/ scss/_variables.scss scss/_icons.scss css/ package.json
+          git add fonts/ scss/_variables.scss scss/_icons.scss scss/_config.scss css/ package.json
           git diff --cached --quiet || git commit -m "update to ${{ inputs.raw_version }}"
           git tag ${{ inputs.raw_version }}
           git push origin HEAD ${{ inputs.raw_version }}
-
-      - uses: actions/setup-node@v6
-        with:
-          node-version: '22'
-          registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to npm
         run: npm publish

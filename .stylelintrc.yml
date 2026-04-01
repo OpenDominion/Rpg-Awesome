@@ -1,0 +1,28 @@
+extends:
+  - stylelint-config-standard-scss
+
+rules:
+  # Disabled in scss-lint config
+  color-named: null
+  max-nesting-depth: null
+  selector-no-qualifying-type: null
+  property-no-vendor-prefix: null
+  value-no-vendor-prefix: null
+
+  # scss-lint HexLength: short
+  color-hex-length: short
+
+  # scss-lint ZeroUnit
+  length-zero-no-unit: true
+
+  # scss-lint UrlQuotes
+  function-url-quotes: always
+
+  # scss-lint PlaceholderInExtend
+  scss/at-extend-no-missing-placeholder: true
+
+  # _icons.scss is auto-generated and uses single-colon pseudo-elements (:before/:after)
+  selector-pseudo-element-colon-notation: null
+
+  # Icon font definition intentionally omits generic font family
+  font-family-no-missing-generic-family-keyword: null

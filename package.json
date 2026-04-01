@@ -8,15 +8,14 @@
     "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^1.4.3",
-    "grunt-contrib-cssmin": "~0.11.0",
-    "grunt-contrib-sass": "~0.8.1",
-    "grunt-scss-lint": "^0.3.8"
+    "sass": "^1.85.1",
+    "stylelint": "^17.4.0",
+    "stylelint-config-standard-scss": "^17.0.0"
   },
   "scripts": {
-    "build": "grunt",
-    "test": "grunt scsslint"
+    "build": "sass scss/rpg-awesome.scss css/rpg-awesome.css --style=expanded --source-map && sass scss/rpg-awesome.scss css/rpg-awesome.min.css --style=compressed --no-source-map",
+    "test": "stylelint \"scss/*.scss\"",
+    "lint-fix": "stylelint --fix \"scss/*.scss\""
   },
   "description": "RPG Awesome is a suite of pictographic, rpg and fantasy themes icons for easy scalable vector graphics on websites, created and maintained by [Daniela Howe](https://github.com/nagoshiashumari) and [Ivan Montiel](http://github.com/idmontie).",
   "bugs": {
@@ -33,9 +32,5 @@
     "access": "public"
   },
   "author": "",
-  "license": "BSD",
-  "dependencies": {
-    "grunt-sass": "^3.1.0",
-    "node-sass": "^8.0.0"
-  }
+  "license": "BSD"
 }

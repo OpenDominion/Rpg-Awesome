@@ -8,3 +8,10 @@ services:
   lint:
     build: .
     command: npm run test
+
+  serve: # Local demo server: docker compose up serve → http://localhost:8080/demo/
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html:ro

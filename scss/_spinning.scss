@@ -1,3 +1,5 @@
+@use 'config' as *;
+
 // Spinning Icons
 // --------------------------
 
@@ -6,17 +8,6 @@
   animation: ra-spin 2s infinite linear;
 }
 
-@-webkit-keyframes ra-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
 @keyframes ra-spin {
   0% {
     -webkit-transform: rotate(0deg);
